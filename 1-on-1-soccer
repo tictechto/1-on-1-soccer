@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Main.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+article {
+  float: left;
+  padding: 20px;
+  width: 85%;
+  background-color: #f1f1f1;
+  height: 1000px; /* only for demonstration, should be removed */
+}
+aside {
+  float: left;
+  width: 15%;
+  height: 1000px; /* only for demonstration, should be removed */
+  background: #d1f0ff;
+  padding: 20px;
+}
+footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #000000;
+  color: white;
+}
+a:link, a:visited {
+  background-color: #000000;
+  color: white;
+  padding: 0.1px 1.1px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #d9d9d9;
+}
+.swf-container {
+        top
+}
+
+
+/* Style the list inside the menu */
+aside ul {
+  list-style-type: none;
+  padding: 0;
+}
+    </style>
+  </head>
+  <body>
+    <nav>
+        <a href="https://tictechto.com/">
+          <img src="tictechto logo.png" alt="logo error" style="width:275.5px;height:53.25px;">
+        </a>
+      <ul>
+        <li><a href="https://tictechto.github.io/tictechto-Games/tictechto.html#">Home</a></li>
+        <li><a href="https://tictechto.github.io/tictechto-Games/Request%20for%20your%20Game.html">Request for your Game</a></li>
+        <li><a href="https://tictechto.github.io/tictechto-Games/Websites_Games.html">Websites/Games</a></li>
+        <li><a href="https://tictechto.github.io/tictechto-Games/GamesArriving.html">GamesArriving</a></li>
+      </ul>
+    </nav>
+<section>
+  <div class="swf-container"> <!-- Block parent element -->
+    <embed src="1-on-1-soccer.swf" width="650" height="500"> <center></embed>
+
+    <p>Requested by Unkown</p>
+</section>
+  </body>
+</html>
